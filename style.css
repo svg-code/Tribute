@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*:focus {outline: none;}
+
+html, body {
+    font-family: iran_sans_light;
+}
+
+main .container {
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+}
+
+main .container .intro img {
+    height: 295px;
+    width: 230px;
+    border-radius: 50%;
+    display: inline-block;
+    border-left: 10px solid lightseagreen;
+    border-top: 10px solid lightseagreen;
+    border-right: 2px solid lightseagreen;
+    transition: all 0.3s ease;
+}
+
+main .container .intro img:hover {
+    height: 295px;
+    width: 230px;
+    border-left: 0px solid lightseagreen;
+    border-top: 0px solid lightseagreen;
+    border-right: 0px solid lightseagreen;
+}
+
+main .container .intro {
+    text-align: center;
+    position: relative;
+    top: 170px;
+}
+
+main .container .intro h1 {
+    font-size: 30px;
+    color: #302e4d;
+    font-weight: 700;
+    margin: 20px 0 5px;
+}
+
+main .container .intro p {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+    line-height: 22px;
+    color: #504e70;
+}
+
+main .container .intro .media {
+    margin-top: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+main .container .intro .media a {
+    display: flex;
+    align-items: center;
+    height: 36px;
+    width: 36px;
+    display: inline-block;
+    text-align: center;
+    line-height: 35px;
+    margin: 0 4px;
+    padding: 4px 9px;
+    border-radius: 50%;
+    text-decoration: none;
+    background-color: lightseagreen;
+    color: #fff;
+    font-size: 20px;
+}
+
+.info {
+    position: relative;
+    top: 200px;
+    margin-bottom: 30px;
+    line-height: 135%;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.info li {
+    margin: 5px;
+}
+
+.form-section {
+    position: relative;
+    top: 250px;
+    left: 10%;
+    padding-bottom: 50px;
+}
+
+.form-section .contact-form {
+    width: 50%;
+    margin: 0 25%;
+}
+
+.form-section .contact-form .form-item {
+    line-height: 135%;
+    letter-spacing: 1px;
+    margin: 18px 0;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+
+label {
+    width: 40%;
+}
+
+input[type=text],
+input[type=number],
+input[type=date],
+input[type=email],
+select {
+    width: 50%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+.form-section .contact-form .submit {
+    width: 10%;
+    margin-left: 25%;
+}
+
+input[type=submit] {
+    padding: 12px;
+    border-radius: 22px;
+    cursor: pointer;
+    transition: all .5s;
+    line-height: 135%;
+    letter-spacing: 1px;
+}
+
+input[type=submit]:hover,
+input[type=submit]:hover {
+    background-color: lightseagreen;
+    color: #fff;
+}
+
+
